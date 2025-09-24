@@ -27,12 +27,11 @@ In addition, we require tat all contributors also sign the [Contributor License 
 
 ## Ways to Contribute
 
-- 🐛 Report bugs
-- 📖 Improve documentation
-- 💡 Suggest new features
-- 🔧 Submit code fixes or enhancements
-- 🧪 Write tests
-- 🌍 Translate content
+- Report bugs
+- Improve documentation
+- Suggest new features
+- Submit code fixes or enhancements
+- Write tests
 
 ---
 
@@ -41,11 +40,104 @@ In addition, we require tat all contributors also sign the [Contributor License 
 1. **Fork** the repository
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/PICMG/IoTorch.git
-
+   git clone https://github.com/PICMG/IoTorch.git 
 ## Coding Guidelines
+This project creates code for multiple different embedded hardware platforms and developement envioronments. Code for these specific environments is expected to follow the Style Guide for that platform.
+
+When a particular style is not specified for a specific environment, code submitted to this repository should follow the following coding styles:
+
+- **C++** - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+
+- **C** - [GNU Coding Standareds](https://www.gnu.org/prep/standards/)
+
+- **Python** - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
+In addition to following these style guides, all code submissions must include the project's license text within their file header and be free from any confidential or personal information (e.g. login credentials).
 
 ## Pull Request Process
+
+Before you begin:
+
+- You need a GitHub account.
+- You should have Git installed on your machine.
+- Familiarity with basic Git commands is helpful.
+
+---
+
+### 1. Fork the Repository
+
+Go to the main repository on GitHub and click the **Fork** button in the top-right corner. This creates a copy of the repository under your GitHub account.
+
+### 2. Clone Your Fork Locally
+
+Open your terminal and run:
+
+```bash
+git clone https://github.com/your-username/IoTorch.git
+cd IoTorch
+```
+
+Replace `your-username` with your GitHub username and `IoTorch` with the name of the repository.
+
+### 3. Create a New Branch
+
+Create a branch for your changes:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+Use a descriptive name like `fix/login-bug` or `feature/add-dark-mode`.
+
+### 4. Make Your Changes
+
+Edit the code, add tests, update documentation—whatever your contribution involves.
+
+### 5. Stage and Commit Your Changes
+
+```bash
+git add .
+git commit -m "Add: brief description of your change 
+signed-off-by: Your-Name <your-email>"
+```
+
+Use clear, concise commit messages that explain the "what" and "why" of your changes.  The "signed-off-by" portion of the commit is required for automatic devedeveloper certificate of origin verification.
+
+### 6. Push Your Branch to GitHub
+
+```bash
+git push origin feature/your-feature-name
+```
+
+### 7. Open a Pull Request
+
+1. Go to your fork on GitHub.
+2. Click the **Compare & pull request** button.
+3. Fill out the pull request form:
+   - Provide a clear title and description.
+   - Link any related issues (e.g., `Fixes #12`).
+   - Mention any important context or decisions.
+4. Submit the pull request.
+
+
+### 8. Respond to Feedback
+
+A maintainer may review your pull request and suggest changes. Please:
+
+- Be respectful and collaborative.
+- Make requested updates promptly.
+- Ask questions if anything is unclear.
+
+### 9. Final Checklist
+
+Before submitting your pull request, make sure:
+
+- [ ] Code compiles and passes all tests
+- [ ] Changes follow the project’s coding style
+- [ ] Documentation is updated (if needed)
+- [ ] Your branch is up to date with `main`
+- [ ] You’ve run any required linters or formatters
+- [ ] If your code is based off of other works (including AI training code) it abides by the license agreements of the original code.
 
 ## Reporting Issues
 
