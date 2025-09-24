@@ -12,7 +12,6 @@ Welcome! We're thrilled you're considering contributing to **IoTorch**, a powerf
 - [Coding Guidelines](#-coding-guidelines)
 - [Pull Request Process](#-pull-request-process)
 - [Reporting Issues](#-reporting-issues)
-- [Community](#-community)
 
 ---
 
@@ -73,11 +72,11 @@ Go to the main repository on GitHub and click the **Fork** button in the top-rig
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/your-username/IoTorch.git
+git clone https://github.com/PICMG/IoTorch.git
 cd IoTorch
 ```
 
-Replace `your-username` with your GitHub username and `IoTorch` with the name of the repository.
+
 
 ### 3. Create a New Branch
 
@@ -140,5 +139,29 @@ Before submitting your pull request, make sure:
 - [ ] If your code is based off of other works (including AI training code) it abides by the license agreements of the original code.
 
 ## Reporting Issues
+Please check the following before opening a new issue:
 
-## Community
+- [ ] Search [existing issues](https://github.com/PICMG/IoTorch/issues) to see if your concern has already been reported or addressed.
+- [ ] Make sure you're using the latest version of the project.
+- [ ] Review the project's `README.md`, `CONTRIBUTING.md`, and `CODE_OF_CONDUCT.md` for guidance.
+
+### How to Submit an Issue
+Follow these steps to submit a new issue:
+
+1. Go to the [Issues tab](https://github.com/PICMG/IoTorch/issues) of the repository.
+2. Click the **New Issue** button.
+3. Choose the appropriate issue template (if available).
+4. Fill out the issue form with the following details:
+
+For Bug Reports, make sure you include details for the following items:
+
+- **Description**: What’s happening? What did you expect?
+- **Steps to Reproduce**:
+- **Environment**:
+- **Screenshots or Logs**: If applicable, include images or error messages.
+
+For Feature Requests. please include enough information so that the Community Moderator can understand what is being requested.  In particular, what would you like to see, and Why is it useful or necessary.
+
+For other questions, please be clear and specific and include conext or code snippets if relevant.
+
+After submitting a request, watch for responses from maintainers or other contributors and be ready to clarify or provide additional information.
