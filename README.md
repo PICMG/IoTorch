@@ -29,6 +29,7 @@ The first goals of this project, by phase are:
 ---
 
 ## Other Resources
+The following may be useful resources for this project.
 
-The PICMG organization has already written MCTP code for two microcontroller architectures which may be a useful reference for this project.
-- [PICMG IoT Firmware Refererence Code](https://github.com/PICMG/iot_firmware)
+- [PICMG IoT Firmware Refererence Code](https://github.com/PICMG/iot_firmware): MCTP and PLDM code for two microcontroller architectures written by the PICMG organization.
+- [Linux MCTP Documentation](https://docs.kernel.org/networking/mctp.html): The documentation for the Linux MCTP sockets API.
